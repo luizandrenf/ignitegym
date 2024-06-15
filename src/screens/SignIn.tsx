@@ -19,7 +19,7 @@ export function SignIn(){
   return (
     <ScrollView contentContainerStyle={{ flexGrow: 1 }} showsVerticalScrollIndicator={false}>
       <VStack flex={1}> 
-        <ImageBackground source={BackgroundImg} resizeMode='cover' flex={1} px="$10" pb='$16'>
+        <ImageBackground source={BackgroundImg} defaultSource={BackgroundImg} resizeMode='cover' flex={1} px="$10" pb='$16'>
           
           <Center my='$24'>
             <LogoSvg />
